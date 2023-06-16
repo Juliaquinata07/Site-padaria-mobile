@@ -1,0 +1,32 @@
+.cabeçalho__menu-padaria{
+    width: 24px;
+    height: 24px;
+    background-image: url("../Menu.svg");
+    display: inline-block;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.cotainer{
+    display: flex;
+    align-items: center;
+}
+
+.cotainer__imagem{
+    padding: 1em;
+}
+
+.lista-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__botao:checked~.lista-menu{
+    display: block;
+}
